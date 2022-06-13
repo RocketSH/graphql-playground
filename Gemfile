@@ -66,3 +66,4 @@ end
 
 
 gem "graphql", "~> 1.13"
+gem "graphiql-rails", group: :development
