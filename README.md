@@ -1,24 +1,15 @@
-# README
+# GraphQL + Rails7 Learning project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Play with GraphQL in Rails 7 version.
 
-Things you may want to cover:
+Dependencies:
+- Ruby 3.1.0
+- Rails 7.0.1
 
-* Ruby version
+Database creation:
+- install postgresql
+- run `bin/rails db:create db:migrate db:seed`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Start app locally: 
+- run `rails s`
+- connect `localhost:3000/graphiql`
